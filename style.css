@@ -1,0 +1,49 @@
+#parent {
+  border: 1px solid green;
+  width: 700px;
+  height: 520px;
+  background-color: green;
+  /* display: flex will keep all information in a single line */
+  /* default its row */
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+#first {
+  border: 1px solid magenta;
+  width: 300px;
+  height: 100px;
+  background-color: magenta;
+  margin: 10px;
+}
+#second {
+  border: 1px solid turquoise;
+  width: 300px;
+  height: 100px;
+  background-color: turquoise;
+  margin: 10px;
+}
+#third {
+  border: 1px solid blueviolet;
+  width: 300px;
+  height: 100px;
+  background-color: blueviolet;
+  margin: 10px;
+}
+#fourth {
+  border: 1px solid white;
+  width: 300px;
+  height: 100px;
+  background-color: white;
+  margin: 10px;
+}
+#fifth {
+  border: 1px solid yellow;
+  width: 300px;
+  height: 100px;
+  background-color: yellow;
+  margin: 10px;
+}
